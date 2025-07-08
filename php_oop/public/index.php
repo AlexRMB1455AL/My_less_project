@@ -15,7 +15,7 @@ echo "getra";
 return 8 + $check;
 }
 
-require_once('../app/Worker.php');
+require_once('../vendor/autoload.php');
 
 //echo hello(286);
 echo pow(3,8), ucfirst($goter);
