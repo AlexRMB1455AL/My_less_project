@@ -5,7 +5,7 @@
 // $repo += 456;
 
 // echo"$repo";
-$goter = "hello, World!";
+$goter = "helo, World!";
 // echo $goter; 
 // var_dump($repo);
 
