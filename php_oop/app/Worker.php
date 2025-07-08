@@ -1,17 +1,25 @@
 <?php
 
+namespace App;
+
 class Worker {
 
 public string $name;
 public int $age;
-public array $hour;
+public array $hours;
 
-public function work(){
+public function work()
+{
 
-    print_r('i am working');
+    print_r ('i am working');
 }
 
+public function ___construct($name, $age, $hours)
+{
 
+    $this->name = $name;
+    $this->age = $age;
+    $this->hours = $hours;
 
-
+}
 }
