@@ -2,7 +2,8 @@
 
 namespace App;
 
-class Dely2 extends Daly1
+class Dely2 extends Dely1
 {
+   
 
 }

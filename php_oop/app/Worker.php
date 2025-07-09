@@ -7,7 +7,7 @@ class Worker {
 public string $name;
 public int $age;
 public  array $hours;
-
+protected int $gnum;
 public function work()
 {
     
@@ -16,12 +16,13 @@ public function work()
 
 }
 
-public function __construct(string $name, int $age, array $hours)
+public function __construct(string $name, int $age, array $hours, int $gnum)
 {
 
     $this->name = $name;
     $this->age = $age;
     $this->hours = $hours;
+    $this->gnum = $gnum;
 
 }
 }
