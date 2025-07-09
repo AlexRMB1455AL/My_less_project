@@ -6,15 +6,17 @@ class Worker {
 
 public string $name;
 public int $age;
-public array $hours;
+public  array $hours;
 
 public function work()
 {
-
+    
     print_r ('i am working');
+  
+
 }
 
-public function ___construct($name, $age, $hours)
+public function __construct(string $name, int $age, array $hours)
 {
 
     $this->name = $name;
