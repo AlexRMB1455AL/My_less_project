@@ -23,5 +23,7 @@ $turist = new \App\Turist('17', 42, 8, ['olga', 'koly', 'zina']);
 //  $developer->setPosition('developer');
 //  $developer->rest();
 
-   Call::calK(5, 6);
-echo Call->getCountCal();
+  var_dump(\App\Call::calK(5, 6));
+//  var_dump(Call->getCountCal());
+\App\Call :: $counCall += 120;
+var_dump(\App\Call::$countCall);

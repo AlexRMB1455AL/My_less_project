@@ -4,14 +4,14 @@ namespace App;
 
 class Call
 {
-    public static $countCal = 0;
+    private static $countCal = 0;
     public int $num1;
     public int $num2;
-    public function __construct($num1, $num2){
+    // public function __construct($num1, $num2){
     
-    $this->num1 = $num1;
-    $this->num2 = $num2; 
-    }
+    // $this->num1 = $num1;
+    // $this->num2 = $num2; 
+    // }
 
     public static function calK($num1, $num2)
     {
